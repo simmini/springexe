@@ -41,7 +41,7 @@
 </td>
 <td>
 <div class="infoBox" id="duration">
-<div class="counter">0.074s</div>
+<div class="counter">0.105s</div>
 <p>duration</p>
 </div>
 </td>
@@ -78,8 +78,8 @@
 </tr>
 </thead>
 <tr>
-<td class="success">testRegister()</td>
-<td class="success">0.074s</td>
+<td class="success">testPaging()</td>
+<td class="success">0.105s</td>
 <td class="success">passed</td>
 </tr>
 </table>
@@ -87,13 +87,22 @@
 <div id="tab1" class="tab">
 <h2>Standard output</h2>
 <span class="code">
-<pre>05:38:59  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
-05:38:59  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@78c7f9b3, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@6f8d7714, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@1e6b9a95, org.springframework.test.context.support.DirtiesContextTestExecutionListener@4d6f623d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@aa21042, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@e93f3d5, org.springframework.test.context.event.EventPublishingTestExecutionListener@4cee7fa0]
-05:38:59  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
-05:38:59  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@76563d26
-05:38:59  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
-05:38:59  INFO [net.ict.springex.service.TodoServiceImpl] org.modelmapper.ModelMapper@5626d18c
-05:38:59  INFO [net.ict.springex.service.TodoServiceImpl] TodoVO(tno=null, title=Test todoDTO, dueDate=2022-11-14, finished=false, writer=ict01)
+<pre>12:02:08  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.event.ApplicationEventsTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+12:02:08  INFO [org.springframework.test.context.support.DefaultTestContextBootstrapper] Using TestExecutionListeners: [org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@13e698c7, org.springframework.test.context.event.ApplicationEventsTestExecutionListener@aed0151, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@267bbe1a, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1f12e153, org.springframework.test.context.transaction.TransactionalTestExecutionListener@389562d6, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@5a101b1c, org.springframework.test.context.event.EventPublishingTestExecutionListener@2160e52a]
+12:02:09  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Starting...
+12:02:09  INFO [com.zaxxer.hikari.pool.HikariPool] HikariPool-1 - Added connection org.mariadb.jdbc.Connection@54e3658c
+12:02:09  INFO [com.zaxxer.hikari.HikariDataSource] HikariPool-1 - Start completed.
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] PageResponseDTO(page=1, size=10, total=1536, start=1, end=10, prev=false, next=true, dtoList=[TodoDTO(tno=1789, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1788, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1787, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01), TodoDTO(tno=1786, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1785, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1784, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01), TodoDTO(tno=1783, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1782, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민), TodoDTO(tno=1781, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01), TodoDTO(tno=1780, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민)])
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1789, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1788, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1787, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1786, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1785, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1784, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1783, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1782, title=스프링연습12, dueDate=2022-11-16, finished=false, writer=정민)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1781, title=Test1234, dueDate=2022-11-16, finished=false, writer=ict01)
+12:02:09  INFO [net.ict.springex.mapper.TodoServiceTest] TodoDTO(tno=1780, title=스프링멀까?????!!&gt;?&gt;!!?!!?, dueDate=2022-11-16, finished=false, writer=정민)
 </pre>
 </span>
 </div>
@@ -105,7 +114,7 @@
 <input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
 </label>
 </div>Generated by 
-<a href="http://www.gradle.org">Gradle 7.3.3</a> at 2022. 11. 14. 오후 5:38:59</p>
+<a href="http://www.gradle.org">Gradle 7.3.3</a> at 2022. 11. 16. 오후 12:02:09</p>
 </div>
 </div>
 </body>
